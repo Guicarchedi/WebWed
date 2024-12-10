@@ -80,7 +80,13 @@ img{
 
         & .perfil-conteudo-principal{
             background-color: #efffff;
-            padding: 5px 30px 0px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 30px;
+            width: 1000px;
+            padding-top: 20px;
             margin-right: 50px;
             margin-left: -60px;
 
@@ -89,7 +95,6 @@ img{
                 font-family: var(--titulo);
                 font-size: 1.3em;
                 text-align: center;
-                margin-bottom: 17px;
 
                 & span{
                     border-bottom: 2px solid blue;
@@ -100,18 +105,14 @@ img{
             & .subtitulo-perfil{
                 color: #2e2e2e;
                 text-align: center;
-                margin-bottom: 7px;
             }
-        }
 
-        & .contato{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: aqua;
-
-            & .menu-contato{
-
+            & .contato{
+                background-color: bisque;
+                margin-top: 10px;
+                & .menu-contato{
+    
+                }
             }
         }
     }
