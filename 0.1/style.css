@@ -111,7 +111,7 @@ img{
                 background-color: bisque;
                 margin-top: 10px;
                 & .menu-contato{
-    
+                    background-color: #333;
                 }
             }
         }
